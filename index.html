@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"  crossorigin="anonymous"/>
+   <link rel="stylesheet" href="style.css" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Special+Gothic&display=swap" rel="stylesheet">
+    <title>Portfólio da Maria</title>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeo4A6VKWzEOmYv7E+nqUhtSGYz0TwWwfvDhjVt9IJGqD1Ma" crossorigin="anonymous"></script>
+<body>
+    <header class="container text-center">
+        <h1 class="abril-fatface-regular" style="color:#CC0074"> Portfólio </h1> 
+        <img src="img/Imagem1.png" alt="Avatar Maria" class="rounded-circle" srcset="" style="width: 200px; height: 200px; object-fit: cover;">
+        <p class="lead">Me chamo Maria</p> 
+        <h1>Eu ensino Culinária</h1>
+        <p>Sou apaixonada por culinária desde criança. Meu foco é na confeitaria, onde podemos criar lindos pratos com ingredientes simples. Aprender a cozinhar vai muito além dos ingredientes, envolve muita vontade de aprender, prática e dedicação.</p>
+        <h2 class="mt-5" style="color:#CC0074">Habilidades</h2>
+    </header>
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <h3>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalDocesFinos">
+                        Doces Finos
+                        </button>
+                    </h3>
+                      <div class="modal fade" id="modalDocesFinos" tabindex="-1" aria-labelledby="modalDocesFinosLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="modalDocesFinosLabel">Doces Finos</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Doces sofisticados, servindo elegância e praticidade, ideal para eventos requintados.
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+       
+                <div class="col">
+                    <h3>  
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalBolosFestivos">
+                            Bolos Festivos
+                        </button>
+                    </h3>
+                <div class="modal fade" id="modalBolosFestivos" tabindex="-1" aria-labelledby="modalBolosFestivos" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title" id="modalBolosFestivosLabel">Bolos Festivos</h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Bolos para festas e celebrações, misturando criatividade e sabor.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="col">
+                    <h3>  
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalProduçãoManual">
+                            Produção Manual
+                        </button>
+                    </h3>
+                <div class="modal fade" id="modalProduçãoManual" tabindex="-1" aria-labelledby="modalProduçãoManual" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title" id="modalProduçãoManual">
+                                    Produção Manual
+                                </h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Trabalho minucioso, com delicadeza, implementando detalhes essenciais.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+    <main class="container text-center mt-5"> 
+        <h2>Meus Trabalhos:</h2>
+    </main>
+    <div class="container text-center">
+        <div class="row align-items-start">
+            <div class="col">
+                <div id="Tradicional" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/CupCake Free.jpg" class="d-block w-100" alt="CupCake">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Cookie Free.jpg" class="d-block w-100"alt="Cookie">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Cake Free.jpg" class="d-block w-100"  alt="Cake">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#Tradicional" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#Tradicional" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <h3>
+                    <p class="badge bg-secondary mt-5">Confeitaria Tradicional</p>
+               </h3>
+            </div>
+            <div class="col">
+                <div id="Gourmet" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/Brigadeiro Free.jpg" class="d-block w-100" alt="Brigadeiro">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Brownie Free.jpg" class="d-block w-100"alt="Brownie">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Macaron Free.jpg" class="d-block w-100"  alt="Macaron">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#Gourmet" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#Gourmet" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <h3>
+                     <p class="badge bg-secondary mt-5">Confeitaria Gourmet </p>
+                </h3>
+            </div>
+            <div class="col">
+                <div id="Artística" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/Lollipop Free.jpg" class="d-block w-100" alt="Lollipop">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Unicorn Cake Free.jpg" class="d-block w-100"alt="Cake">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Donuts Free.jpg" class="d-block w-100"alt="Donuts">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#Artística" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#Artística" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <h3>
+                    <p class="badge bg-secondary mt-5 mb-5">Confeitaria Artística </p>
+                </h3>
+            </div>
+        </div>
+    </div>
+        <hr>
+        <h2 class="text-center mt-5">
+            Qual a diferença? </h2>
+    
+     <div class="container text-center">
+                <div class="row align-items-start">
+                    <div class="col">
+                        <p>A <mark>confeitaria tradicional</mark> é a mais antiga e funciona como uma base para todas as outras confeitaria. É um conhecimento passado de gerações para gerações. Apresenta a confecção de bolos simples, tortas e doces com o uso de técnicas antigas adaptadas para a atualidade.    </p>
+    </div>
+                <div class="col">
+                        <p>A <mark>confeitaria gourmet</mark> é uma técnica que vem se popularizando pois "melhora" os doces já conhecidos. Com o uso de ingredientes de alta qualidade, trazendo sofisticação e elegância. </p>
+    </div>
+                <div class="col">
+                    <p>A <mark>confeitaria artística</mark> é onde pode-se expressar a arte nos desenhos, utilizando de técnicas de pinturas, desenhos, formas e cores. Envolvendo originalidade e criatividade.   </p>
+    </div>
+    <header class="container">
+    </header>
+
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+
+</body>
+<footer class="container py-5 bg-dark text-light mt-5">
+
+    <h2>Entre em contato</h2>
+    <div>
+        <a href="https://github.com/mariajaquetti">GitHub</a>
+        <a href="mailto:maria.jaquetti@escola.pr.gov.br">Enviar e-mail</a>
+    </div>
+        <div class="mt-5"> Obrigada por ver meu trabalho!
+        </div>
+    <p class="my-5 text-center">© Copyright 2024. Produzido por Maria Jaquetti </p>
+</footer>
+</html>
